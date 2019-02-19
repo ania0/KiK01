@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column-reverse;
+}
+
+main {
+  width:45vw;
+  height:45vw;
+}
+
+.row {
+  width: 45vw;
+  height: 15vw;
+}
+
+.gameElement {
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid black;
+  float:left;
+  margin-left:-5px;
+  background-color: #d6d2d1;
+  transition: 0.3s all;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+.gameElement:active {
+transform:scale(0.9);
+
+}
